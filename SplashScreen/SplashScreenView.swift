@@ -2,7 +2,6 @@
 //  SplashScreenView.swift
 //  SplashScreen
 //
-//  Created by Federico on 20/01/2022.
 //
 
 import SwiftUI
@@ -18,16 +17,40 @@ struct SplashScreenView: View {
             ContentView()
         } else {
             VStack {
-                VStack {
-                    Image(systemName: "hare.fill")
-                        .font(.system(size: 80))
-                        .foregroundColor(.red)
-                    Text("Epic App")
+                VStack(alignment: .leading) {
+                    Image("Image")
+                          .resizable()
+                          .frame(width: 350, height: 250)
+                          .cornerRadius(1)
+                          .frame(maxWidth: .infinity)
+
+                    //    .font(.system(size: 80))
+                      //  .foregroundColor(.red)
+                    Text("Have You")
                         .font(Font.custom("Baskerville-Bold", size: 26))
                         .foregroundColor(.black.opacity(0.80))
+                      //  .multilineTextAlignment(.leading)
+                    Text("Read Today?")
+                        .font(Font.custom("Baskerville-Bold", size: 26))
+                        .foregroundColor(.black.opacity(0.80))
+                        .multilineTextAlignment(.leading)
+                        //.padding(.top, 46.0)
+                    
+                    Text( "consectetur adipiscing" )
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.leading)
+                        .padding(.top, 20)
+                    Text( "elit. consectetur " )
+                        .font(.title3)
+                    Text( "adipiscing eli " )
+                        .font(.title3)
+                        .multilineTextAlignment(.leading)
+                    
                 }
                 .scaleEffect(size)
-                .opacity(opacity)
+              //  .opacity(opacity)
                 .onAppear {
                     withAnimation(.easeIn(duration: 1.2)) {
                         self.size = 0.9
