@@ -26,6 +26,7 @@ struct SplashScreenView: View {
 
                     //    .font(.system(size: 80))
                       //  .foregroundColor(.red)
+                    VStack{
                     Text("Have You")
                         .font(Font.custom("Baskerville-Bold", size: 26))
                         .foregroundColor(.black.opacity(0.80))
@@ -47,8 +48,9 @@ struct SplashScreenView: View {
                     Text( "adipiscing eli " )
                         .font(.title3)
                         .multilineTextAlignment(.leading)
-                    
+                       
                 }
+                   // .padding(.top, 33.0)
                 .scaleEffect(size)
               //  .opacity(opacity)
                 .onAppear {
@@ -62,6 +64,9 @@ struct SplashScreenView: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {
                         self.isActive = true
+                        
+                    }
+                    
                     }
                 }
             }

@@ -27,6 +27,12 @@ struct ContentView: View {
                 .font(.title3)
                 .padding()
                 .frame(width: 110, height: 100)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 15)
+                    .stroke(lineWidth: 2)
+                    .stroke(Color("Color 1"))
+                    
+                )
                 .foregroundColor(.black)
                 .background(Color("Color"))
                 .cornerRadius(15)
@@ -108,7 +114,7 @@ struct ContentView: View {
                         
                     }}
           
-                .frame(width: 370, height: 120)
+                .frame(width: 370, height: 100)
                 .overlay(
                     RoundedRectangle(cornerRadius: 15)
                     .stroke(lineWidth: 1)
@@ -136,7 +142,7 @@ struct ContentView: View {
                     
                 }}
             .padding(.trailing, 9.0)
-            .frame(width: 370, height: 120)
+            .frame(width: 370, height: 100)
             .overlay(
                 RoundedRectangle(cornerRadius: 15)
                 .stroke(lineWidth: 1)
@@ -164,7 +170,7 @@ struct ContentView: View {
                     
                 }}
             .padding(.trailing, 35.0)
-            .frame(width: 370, height: 120)
+            .frame(width: 370, height: 100)
             .overlay(
                 RoundedRectangle(cornerRadius: 15)
                 .stroke(lineWidth: 1)
@@ -193,7 +199,7 @@ struct ContentView: View {
                     
                 }}
             .padding(.trailing, 10.0)
-            .frame(width: 370, height: 120)
+            .frame(width: 370, height: 100)
             .overlay(
                 RoundedRectangle(cornerRadius: 15)
                 .stroke(lineWidth: 1)
@@ -221,7 +227,7 @@ struct ContentView: View {
                     
                 }}
             .padding(.trailing, 27.0)
-            .frame(width: 370, height: 120)
+            .frame(width: 370, height: 100)
             .overlay(
                 RoundedRectangle(cornerRadius: 15)
                 .stroke(lineWidth: 1)
