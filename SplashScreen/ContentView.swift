@@ -11,6 +11,7 @@ struct ContentView: View {
     func buttonPressed(){
         print("button pressed")
     }
+//    let text1:LocalizedStringKey = "text1"
     var body: some View {
         VStack(alignment: .leading){
             HStack{
@@ -20,8 +21,9 @@ struct ContentView: View {
                     Image(systemName: "quote.closing")
                         .foregroundColor(Color("Color 1"))
                         .font(.system(size: 35.0))
-                          Text("Qoutes")
-                        .font(.title3)
+                    Text("Qoutes")
+                          //Text(text1)
+                        .font(.callout)
                         .padding(.top, 9.0)
                 }//v
                 .font(.title3)
@@ -44,9 +46,9 @@ struct ContentView: View {
                         .frame(width: 50, height:70)
                         .padding(.top, 25.0)
                         .foregroundColor(Color("Color 1"))
-                       // .font(.system(size: 35.0))
+//                        .font(.system(size: 35.0))
                           Text("Articals")
-                    .font(.title3)
+                        .font(.callout)
                     .padding(.bottom, 44.0)
                 }//v
                 .font(.title3)
@@ -67,9 +69,9 @@ struct ContentView: View {
                         .resizable()
                         .frame(width: 65.0, height:50.0)
                        .foregroundColor(Color("Color 1"))
-                     .font(.system(size: 30.0))
-                          Text("Qoutes")
-                        .font(.title3)
+                     .font(.system(size: 20.0))
+                          Text("Abstracts")
+                        .font(.callout)
                        // .padding(.bottom, 22.0)
                 }//v
                 .font(.title3)
@@ -243,12 +245,11 @@ struct ContentView: View {
             
 
             }
-//}
-    //}
+
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
         }
     }
-//}
+

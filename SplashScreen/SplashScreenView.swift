@@ -28,14 +28,14 @@ struct SplashScreenView: View {
                       //  .foregroundColor(.red)
                     VStack{
                     Text("Have You")
-                        .font(Font.custom("Baskerville-Bold", size: 26))
-                        .foregroundColor(.black.opacity(0.80))
-                      //  .multilineTextAlignment(.leading)
-                    Text("Read Today?")
-                        .font(Font.custom("Baskerville-Bold", size: 26))
+                        .font(Font.custom("Baskerville-Bold", size: 29))
                         .foregroundColor(.black.opacity(0.80))
                         .multilineTextAlignment(.leading)
-                        //.padding(.top, 46.0)
+                    Text("Read Today?")
+                        .font(Font.custom("Baskerville-Bold", size: 29))
+                        .foregroundColor(.black.opacity(0.80))
+                        .multilineTextAlignment(.leading)
+//                        .padding(.top, 46.0)
                     
                     Text( "consectetur adipiscing" )
                         .font(.title3)
@@ -50,7 +50,7 @@ struct SplashScreenView: View {
                         .multilineTextAlignment(.leading)
                        
                 }
-                   // .padding(.top, 33.0)
+                    .padding([.top, .leading], 44)
                 .scaleEffect(size)
               //  .opacity(opacity)
                 .onAppear {
