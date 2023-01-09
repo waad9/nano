@@ -1,7 +1,7 @@
 //
 //  SplashScreenApp.swift
 //  SplashScreen
-//
+// Created by وعد عياد الرويلي on 15/06/1444 AH.
 
 //
 

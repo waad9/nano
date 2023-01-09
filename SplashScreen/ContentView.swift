@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //  SplashScreen
-//
+// Created by وعد عياد الرويلي on 15/06/1444 AH.
 // 
 //
 
@@ -11,7 +11,8 @@ struct ContentView: View {
     func buttonPressed(){
         print("button pressed")
     }
-//    let text1:LocalizedStringKey = "text1"
+   // let Qoutes:LocalizedStringKey = "Qoutes"
+   // let string = NSLocalizedString("Qoutes1", comment: "")
     var body: some View {
         VStack(alignment: .leading){
             HStack{
@@ -22,7 +23,7 @@ struct ContentView: View {
                         .foregroundColor(Color("Color 1"))
                         .font(.system(size: 35.0))
                     Text("Qoutes")
-                          //Text(text1)
+                        // Text("text1")
                         .font(.callout)
                         .padding(.top, 9.0)
                 }//v

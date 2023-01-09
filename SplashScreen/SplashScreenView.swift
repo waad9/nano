@@ -1,7 +1,7 @@
 //
 //  SplashScreenView.swift
 //  SplashScreen
-//
+// Created by وعد عياد الرويلي on 15/06/1444 AH.
 //
 
 import SwiftUI
@@ -37,15 +37,15 @@ struct SplashScreenView: View {
                         .multilineTextAlignment(.leading)
 //                        .padding(.top, 46.0)
                     
-                    Text( "consectetur adipiscing" )
+                    Text( "Reading gives us someplace" )
                         .font(.title3)
                         .fontWeight(.regular)
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.leading)
                         .padding(.top, 20)
-                    Text( "elit. consectetur " )
+                    Text( "to go when we have to " )
                         .font(.title3)
-                    Text( "adipiscing eli " )
+                    Text( "stay where we are." )
                         .font(.title3)
                         .multilineTextAlignment(.leading)
                        
