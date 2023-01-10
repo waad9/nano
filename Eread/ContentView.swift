@@ -23,7 +23,7 @@ var books : [Table] = [
 ]
 var books2 : [Table] = [
 Table(title:"Health", imageURL: "1", content :""),
-    Table(title:"Environment ",imageURL: "2", content: " "),
+    Table(title:"Environment",imageURL: "2", content: " "),
     Table(title:"Travel",imageURL: "3",content: ""),
     Table(title:"Education",imageURL: "4" ,content:""),
     Table(title:"Career",imageURL: "5" ,content:""),
