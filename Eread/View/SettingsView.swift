@@ -163,3 +163,4 @@ struct SettingsView_Previews: PreviewProvider {
         SettingsView(slide: CGFloat(1)).environmentObject(AppSettings())
     }
 }
+

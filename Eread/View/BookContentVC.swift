@@ -38,9 +38,11 @@ struct BookContentVC: View {
                                 .padding()
                                 .padding(.top, 50)
                                 .frame(alignment: .center)
+                            ScrollView{
                             Text(model?.content ?? "")
                                 .font(.custom(self.appSettings.font, size: 19))
                                 .padding(EdgeInsets(top: 30, leading: 20, bottom: 5, trailing: 25))
+                        }.frame(height:300)
                         }
                     }
                 }
@@ -52,7 +54,6 @@ struct BookContentVC: View {
             .navigationBarItems(leading: btnBack)
     }
 }
-
 struct BookContentVC_Previews: PreviewProvider {
     static var previews: some View {
         let model: Table? = nil

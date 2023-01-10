@@ -75,20 +75,12 @@
 		A6B3EC05296D0EA000F7ABF0 /* Eread */ = {
 			isa = PBXGroup;
 			children = (
-				A6B3EC1A296D0F7900F7ABF0 /* BookExtension+Color */,
 				A6B3EC30296D13FD00F7ABF0 /* SplashScreen.swift */,
+				A6B3EC1A296D0F7900F7ABF0 /* BookExtension+Color */,
 				A6B3EC23296D10B300F7ABF0 /* Model */,
 				A6B3EC22296D10A700F7ABF0 /* View */,
 				A6B3EC06296D0EA000F7ABF0 /* EreadApp.swift */,
-				A6B3EC08296D0EA000F7ABF0 /* ContentView.swift */,
-				A6B3EC1F296D106C00F7ABF0 /* ElementsBox.swift */,
-				A6B3EC24296D113D00F7ABF0 /* ContentsTable.swift */,
 				A6B3EC0C296D0EA100F7ABF0 /* Preview Content */,
-				A6B3EC26296D121A00F7ABF0 /* ElementsView.swift */,
-				A6B3EC28296D126E00F7ABF0 /* TableList.swift */,
-				A6B3EC2A296D129B00F7ABF0 /* AppSettings.swift */,
-				A6B3EC2C296D12E600F7ABF0 /* BookContentVC.swift */,
-				A6B3EC2E296D139600F7ABF0 /* SettingsView.swift */,
 			);
 			path = Eread;
 			sourceTree = "<group>";
@@ -114,6 +106,12 @@
 		A6B3EC22296D10A700F7ABF0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3EC2A296D129B00F7ABF0 /* AppSettings.swift */,
+				A6B3EC28296D126E00F7ABF0 /* TableList.swift */,
+				A6B3EC2E296D139600F7ABF0 /* SettingsView.swift */,
+				A6B3EC2C296D12E600F7ABF0 /* BookContentVC.swift */,
+				A6B3EC26296D121A00F7ABF0 /* ElementsView.swift */,
+				A6B3EC08296D0EA000F7ABF0 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +119,8 @@
 		A6B3EC23296D10B300F7ABF0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3EC24296D113D00F7ABF0 /* ContentsTable.swift */,
+				A6B3EC1F296D106C00F7ABF0 /* ElementsBox.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
