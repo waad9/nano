@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 var elements : [ElementsBox] = [                   //Localizable
     ElementsBox(title: "Qoutes", imageURL: "Qoutes", id: 0),
     ElementsBox(title:"Articals", imageURL: "Articals", id: 1),

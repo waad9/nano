@@ -11,6 +11,7 @@ import SwiftUI
 
 struct ElementsView : View {
     
+    
     @Binding var selectedBtn: Int
     
     let box : ElementsBox

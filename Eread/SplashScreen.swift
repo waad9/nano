@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SplashScreenView: View {
+    
     @EnvironmentObject var appSettings: AppSettings
     @State var isActive : Bool = false
     @State private var size = 0.8

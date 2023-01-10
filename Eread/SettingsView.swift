@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+
 struct SettingsView: View {
     @EnvironmentObject var appSettings: AppSettings
     @State var slide : CGFloat

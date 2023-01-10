@@ -12,6 +12,7 @@ struct EreadApp: App {
     var body: some Scene {
         WindowGroup {
             SplashScreenView().environmentObject(AppSettings())
+            
            //ContentView()
         }
     }

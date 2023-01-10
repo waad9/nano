@@ -5,6 +5,7 @@
 //  Created by Manal Alqahtani on 16/06/1444 AH.
 //
 import SwiftUI
+
 struct BookContentVC: View {
     @EnvironmentObject var appSettings: AppSettings
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
