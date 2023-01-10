@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6424685296D4CB100759273 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6424687296D4CB100759273 /* Localizable.strings */; };
 		A6B3EC07296D0EA000F7ABF0 /* EreadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3EC06296D0EA000F7ABF0 /* EreadApp.swift */; };
 		A6B3EC09296D0EA000F7ABF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3EC08296D0EA000F7ABF0 /* ContentView.swift */; };
 		A6B3EC0B296D0EA100F7ABF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B3EC0A296D0EA100F7ABF0 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6424686296D4CB100759273 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A6424688296D4CB600759273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A6B3EC03296D0EA000F7ABF0 /* Eread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B3EC06296D0EA000F7ABF0 /* EreadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EreadApp.swift; sourceTree = "<group>"; };
 		A6B3EC08296D0EA000F7ABF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		A6B3EBFA296D0EA000F7ABF0 = {
 			isa = PBXGroup;
 			children = (
+				A6424687296D4CB100759273 /* Localizable.strings */,
 				A6B3EC05296D0EA000F7ABF0 /* Eread */,
 				A6B3EC04296D0EA000F7ABF0 /* Products */,
 			);
@@ -181,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B3EC0E296D0EA100F7ABF0 /* Preview Assets.xcassets in Resources */,
+				A6424685296D4CB100759273 /* Localizable.strings in Resources */,
 				A6B3EC0B296D0EA100F7ABF0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +213,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6424687296D4CB100759273 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6424686296D4CB100759273 /* ar */,
+				A6424688296D4CB600759273 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A6B3EC0F296D0EA100F7ABF0 /* Debug */ = {
