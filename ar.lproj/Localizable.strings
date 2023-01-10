@@ -4,7 +4,7 @@
 
   Created by Manal Alqahtani on 17/06/1444 AH.
   
-*/
+/*
 "Have You" = "إقرأ أكثر.";
 
 "Read Today?" = "ترى أكثر";
@@ -25,3 +25,18 @@
 "Hard Work Quotes" = " اقتباسات حول الوقت";
 
 "Love Quotes" = "اقتباسات حول العقل";
+*/
+
+
+// SPLASH SCREEN
+"Have You" = "إقرأ أكثر.";
+
+"Read Today?" = "ترى أكثر";
+//S
+ 
+//Collection view
+"firsttext" = "اقتباسات" ;
+"Secondtext" = "مقالات"   ;
+"thirdtext" = "ملخصات"  ;
+
+

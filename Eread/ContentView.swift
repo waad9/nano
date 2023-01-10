@@ -10,9 +10,9 @@ import SwiftUI
 
 
 var elements : [ElementsBox] = [                   //Localizable
-    ElementsBox(title: "Qoutes", imageURL: "Qoutes", id: 0),
-    ElementsBox(title:"Articals", imageURL: "Articals", id: 1),
-   ElementsBox(title: "Abstracts", imageURL: "Abstracts", id: 2)
+    ElementsBox(title: NSLocalizedString("firsttext", comment: "") , imageURL: "Qoutes", id: 0),
+    ElementsBox(title: NSLocalizedString("Secondtext", comment: "") , imageURL: "Articals", id: 1),
+   ElementsBox(title: NSLocalizedString("Secondtext", comment: "") , imageURL: "Abstracts", id: 2)
 ]
 
 var books : [Table] = [                                   
